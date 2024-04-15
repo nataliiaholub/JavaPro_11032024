@@ -1,16 +1,16 @@
 package coffee.order;
 
 class Order {
-    private int orderNumber;
+    private int orderId;
     private String customerName;
 
-    public Order(int orderNumber, String customerName) {
-        this.orderNumber = orderNumber;
+    public Order(int orderId, String customerName) {
+        this.orderId = orderId;
         this.customerName = customerName;
     }
 
     public int getOrderId() {
-        return orderNumber;
+        return orderId;
     }
 
     public String getCustomerName() {
