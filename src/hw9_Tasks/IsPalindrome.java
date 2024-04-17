@@ -1,8 +1,10 @@
 package hw9_Tasks;
 
 public class IsPalindrome {
+//todo
+
 //    public static boolean isPalindromeRegex(String inputData) {
-//        String cleanedString = inputData.replaceAll("","");
+//    String cleanedString = inputData.replaceAll("","");
 //    }
 
     public static boolean isPalindrome2(String s) {
