@@ -1,4 +1,4 @@
-package leetcode;
+package hwleetcode;
 
 class Solution {
     public ListNode reverseList(ListNode head) {
@@ -13,7 +13,6 @@ class Solution {
             current = nextNode;
         }
         return prev;
-
     }
 }
 
