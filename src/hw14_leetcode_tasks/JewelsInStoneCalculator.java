@@ -3,12 +3,12 @@ package hw14_leetcode_tasks;
 public class JewelsInStoneCalculator {
     //On
     public int numJewelsInStoneOneLoop(String jewels, String stones) {
-        int counter = 0;
+        int count = 0;
         for (int i = 0; i < stones.length(); i++) { // On
             if (jewels.indexOf(stones.charAt(i)) != -1)
-                counter++;
+                count++;
         }
-        return counter;
+        return count;
     }
 
     //On2
